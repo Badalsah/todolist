@@ -1,0 +1,29 @@
+<html>
+<head>
+
+    <title>to do list</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <h1> <%= theday %> </h1>
+    <h2></h2>
+<ul>
+    <li>nelwe</li>
+    <li>fjailjfal</li>
+    <% for (var i = 0; i < new2.length; i++) { %>
+        <li><%= new2[i] %></li>
+    <%  } %>
+    
+</ul>
+<form action='/' method="post">
+
+    <input type="text" name="num1" placeholder="First Name">
+    
+    <button type="submit" name="submit">Add</button>
+    </form>
+
+</body>
+</html>
